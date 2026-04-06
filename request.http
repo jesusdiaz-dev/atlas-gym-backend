@@ -18,4 +18,16 @@ Content-Type: application/json
 ### Test Controller
 GET {{baseUrl}}/auth
 
-### Test Controller
+### USER CONTROLLER
+
+POST {{baseUrl}}/user
+Content-Type: application/json
+
+{
+    "name": "Juan",
+    "email": "jesusdiaz013@gmail.com",
+    "password": "PASSWORD"
+}
+
+
+
