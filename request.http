@@ -1,0 +1,21 @@
+@baseUrl = http://localhost:3000
+@baseUrlPrueba = https://jsonplaceholder.typicode.com
+
+
+### Test a GET request
+GET {{{{baseUrlPrueba}}}}/posts/1
+
+### Test a POST request with JSON
+POST {{baseUrlPrueba}}/posts
+Content-Type: application/json
+
+{
+    "title": "New Post",
+    "body": "Testing REST Client syntax",
+    "userId": 1
+}
+
+### Test Controller
+GET {{baseUrl}}/auth
+
+### Test Controller
